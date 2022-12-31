@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1134 976">
+<style></style>
+<style>
+text{
+	font-family: 'Tensentype-JiaLiDaYuanJF',sans-serif;
+	fill:#111;
+	font-size:30px;
+}
+#标题,
+#分数{font-size:60px;}
+.fs24{font-size:24px;}
+#地区 path,
+#曾母暗沙,
+.边框{
+    fill-rule:evenodd;
+    clip-rule:evenodd;
+    stroke:#000;
+    stroke-width:4;
+    stroke-linecap:round;
+    stroke-linejoin:round;
+}
+#地区 path{
+    fill:#FFF;
+    cursor: pointer;
+    pointer-events: auto;
+}
+#曾母暗沙,
+.边框{fill:none;}
+#地区 path[level="5"]{fill:#FF7E7E;}
+#地区 path[level="4"]{fill:#FFB57E;}
+#地区 path[level="3"]{fill:#FFE57E;}
+#地区 path[level="2"]{fill:#A8FFBE;}
+#地区 path[level="1"]{fill:#88AEFF;}
+</style>
+<text x="550" y="119" id="标题">自家制霸</text>
+<g id="地区">	
+	<path id="卫生间" d="m73,258l203,0l0,102l-203,0l0,-102z"/>
+	<path id="客厅" d="m263,220l226,0l0,220l-226,0l0,-220z"/>
+	<path id="主卧" d="m164.00002,48.00001l127.99999,0l0,208.99998l-127.99999,0l0,-208.99998z"/>
+	<path id="卧室阳台" d="m293,49l157,0l0,170l-157,0l0,-170z"/>
+	<path id="走廊" d="m424,192l273,0l0,93l-273,0l0,-93z"/>
+	<path id="小卧室" d="m163,359l122,0l0,123l-122,0l0,-123z"/>
+</g>
+<g id="地名">
+	<text x="150" y="325">卫生间</text>
+	<text x="320" y="340">客厅</text>
+	<text x="186" y="190">主卧</text>
+	<text x="506" y="230">走廊</text>
+	<text x="350" y="173">卧室</text>
+	<text x="350" y="75">阳台</text>
+	<text x="180" y="430">小卧室</text>
+</g>
+<line xmlns="http://www.w3.org/2000/svg" id="svg_11" y2="80" x2="450" y1="80" x1="290" stroke="#000" fill="none"/>
+<text id="分数" x="35" y="883">分数</text>
+<g id="等级">
+	<path fill="#FF7E7E" d="M983 450h120v50H983Z"/>
+	<path fill="#FFB57E" d="M983 500h120v50H983Z"/>
+	<path fill="#FFE57E" d="M983 550h120v50H983Z"/>
+	<path fill="#A8FFBE" d="M983 600h120v50H983Z"/>
+	<path fill="#88AEFF" d="M983 650h120v50H983Z"/>
+	<path fill="#FFF" d="M983 700h120v50H983Z"/>
+	<path class="边框" d="M983 448h120v304H983Z"/>
+	<text x="1000" y="484">长住5</text>
+	<text x="1000" y="535">短居４</text>
+	<text x="1000" y="585">待过３</text>
+	<text x="1000" y="635">进过２</text>
+	<text x="1000" y="685">路过１</text>
+	<text x="998" y="735">没去过</text>
+</g>
+</svg>
